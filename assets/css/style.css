@@ -15,11 +15,61 @@ body {
     }
     
 
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    
+    position: relative;
+    background: url(/assets/css/images/green-header.webp); no-repeat center/cover;
+    background-position: 100%;
+    background-image:linear-gradient(
+        0deg);
+        background-size: cover;
+        background-position: center,center;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(179, 221, 27, 0.1)
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+header nav {
+    display: flex;
+    flex-direction:row ;
+    text-align: right;
+    padding-bottom: 20px;
+    margin-right: 20%;
+}
+
 
 h1 {
     font-size: 2em;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(250, 249, 247);
+    position: relative;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    ;
+    
 }
 
 h2 {
@@ -34,4 +84,29 @@ ul {
     list-style: none;
 }
 
+header a {
+    padding: 5px 10 px;
+    text-decoration: none;
+    font-weight: bold;
+    color : rgb(250, 246, 246);
+    font-family: cursive;
+}
 
+header a:hover {
+    color: rgb(192, 189, 41);
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background: url(/assets/css/images/forest-breath.jpeg) no-repeat center/cover;
+    position: relative;
+    background-image:linear-gradient(
+        0deg);
+        background-size: cover;
+        background-position: center,center;
+}
