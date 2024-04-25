@@ -115,8 +115,10 @@ header a:hover {
         background-position: center,center;
 }
 
-hero h1 {
-    color:beige
+#hero h1 {
+    color:#f3f3ed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      
 }
 
 #what-is-breathwork {
@@ -147,16 +149,18 @@ hero h1 {
     font-size: 30px;
     font-style: italic;
     width: 80%;
+    max-width: 1200px;
     margin: auto;
     line-height: 50px;
     text-align: center;
     padding-top: 5px;
     color: black ;
+    flex-direction: row;
     
     }
 
 #img-container {
-    text-align: left;
+    text-align: center;
     padding: 200px 0px;
 
 }
@@ -174,11 +178,10 @@ hero h1 {
 
 #benefits p.font-change {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 3rem;
     font-style: italic;
     justify-content:left;
-    padding-top: 200px;
-    padding-right: 200px;
+    
    
 }
 
@@ -186,9 +189,10 @@ hero h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
     border: 1px solid #ccc;
-    border-radius: 15px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+
 }
 
 .benefits-alkalizing,
@@ -207,32 +211,188 @@ hero h1 {
 .benefits-alkalizing h4,
 .benefits-anti h4,
 .benefits-elevating h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 0; 
     font-style:italic;
+    color:rgb(228, 225, 221);
 }
 
 .benefits-alkalizing {
-    background: url(/assets/css/images/breathe-green.jpg)no-repeat center/cover;
-      font-size: 2rem;
-      font-style: oblique;
+    background: url(/assets/css/images/threes.jpg)no-repeat center/cover;
+      font-size: 1rem;
+      color:#f5f5f5;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       background-position: 60%;
+      max-width: 100%;
+      background-image: -o-linear-gradient(rgba(20, 20, 20, 0.5));
 } 
 
 .benefits-anti {
     background: url(/assets/css/images/breathin-women.webp) no-repeat center/cover;
-    font-size: 2rem;
-    color: bisque;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
     
 }
 
 .benefits-elevating {
     background: url(/assets/css/images/helechos-header.jpeg ) no-repeat center/cover;
     color:antiquewhite;
-    font-size: 2rem;
-    max-width: 1400px;
+    font-size: 1rem;
     
     
+    }
+
+/*footer */
+
+.social-links {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 14px;
+     
+}
+
+.social-links i {
+font-size: 200%;
+padding: 10%;
+color: #3a3a3a;
+
+
+}
+
+
+
+@media screen and (min-width: 768px){
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header .container {
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 0%;
+    padding-right: 30px;
+    justify-content: flex end;
+}
+
+#hero h1 {
+    font-size: 4em;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+container .logo {
+
+       display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+        gap: 20px; 
+    }
+
+#image-container {
+    background-position: center center;
+    justify-content: center;
+    display: flex;
+}
+
+#what-is-breathwork p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: italic;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    color: black ;
+    flex-direction: row;
+    
+    }
+
+
+#benefits .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#benefits h3 {
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px 0px;
+}
+
+#benefits p.font-change {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2em;
+        font-style: italic;
+        justify-content: center;
+        
+       }
+
+
+.benefits-alkalizing,
+.benefits-anti,
+.benefits-elevating {
+    width: 30%;
+    padding-left: 2px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9fef9;
+    margin-bottom: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+
+.benefits-alkalizing h4,
+.benefits-anti h4,
+.benefits-elevating h4 {
+    font-size: 20px;
+    margin-top: 0; 
+    font-style:italic;
+    color: #f5f5f5;
+}
+
+.benefits-alkalizing {
+    background: url(/assets/css/images/threes.jpg)no-repeat center/cover;
+      font-size: 1em;
+      color :#fafafa;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-position: 60%;
+      max-width: 100%;
+} 
+
+.benefits-anti {
+    background: url(/assets/css/images/breathin-women.webp) no-repeat center/cover;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    
+}
+
+.benefits-elevating {
+    background: url(/assets/css/images/helechos-header.jpeg ) no-repeat center/cover;
+    color:antiquewhite;
+    font-size: 1em;
+
+    
+    
+    }
+
 }
 
