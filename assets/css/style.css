@@ -1,6 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
@@ -10,9 +11,14 @@
 
 body {
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin:0
+        margin: 0,
         
     }
+
+html , body {
+    height: 100%;
+    margin: 0;
+}
 
     /*header*/
     
@@ -265,6 +271,7 @@ footer {
     list-style-type: style type;;
     font-size: 14px;
     position: relative;
+    
    
 }
 
@@ -342,10 +349,12 @@ color: #3a3a3a;
 
 #signup {
     background: url("/assets/css/images/breathing-meditation.jpeg") no-repeat center/cover;
-    background-size: cover;
+    background-size:auto;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    height: 100%;
+    width: 100%;
 }
 
 #signup-form {
@@ -357,18 +366,19 @@ color: #3a3a3a;
 #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .text-input {
     background: transparent;
-    color: #1a1616;
+    color: #4c4848;
     border: 1px solid #140303;
     border-radius: 2px;
-    width: 25px;
+    width: 60%;
     height: 25px;
     margin: 5px 0 20px 0;
     padding: 0 5 px;
+    font-size: xx-large;
 }
 
 
@@ -385,9 +395,31 @@ color: #3a3a3a;
 
 /*open-times*/
 
-#open-time .coontainer {
-    background-color: antiquewhite;
+#open-times .container {
+    background-color:#fafafa;
+    justify-content: center;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #454b1b;
+    padding-left: 10%;
 }
+
+#open-times h2 {
+    font-size: larger;
+    padding-top: 10px;
+}
+
+#open-times th {
+    text-align: left;
+    font-size: larger;
+    
+}
+
+#open-times td {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
 
 
 
@@ -541,8 +573,11 @@ container .logo {
 
 /*form*/
 #signup {
-    background-position: center;
-    position: relative;
+    background:url(/assets/css/images/breathing-meditation.jpeg) no-repeat center/cover;
+    position: cover;
+    width: 100vw;
+    height: 100vh;
+    
 }
 
 #signup-form {
@@ -564,20 +599,32 @@ container .logo {
 
 /*open-times*/
 
-#open-time .coontainer {
-    background-color: antiquewhite;
-}
+
+
 
 
 }
+
+
+
 
 
 
 
 @media screen and (min-width: 992px) {
+
+
  
+
+#signup {
+    display: flex;
+    margin: 0;
+}
+
+
 }
 
 @media screen and (min-width: 1200px) {
 
 }
+
