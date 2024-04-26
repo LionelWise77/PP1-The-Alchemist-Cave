@@ -31,7 +31,7 @@ html , body {
 header {
     background-color: rgb(255, 255, 255);
     position: relative;
-    background: url(/assets/css/images/hojas-header.jpeg) no-repeat center/cover;
+    background: url(../css/images/hojas-header.jpeg) no-repeat center/cover;
     background-position: 100%;
     background-size: cover;
     background-position: center,center;
@@ -112,7 +112,7 @@ header a:hover {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(/assets/css/images/forest-breath.jpeg) no-repeat center/cover;
+    background: url(../css/images/forest-breath.jpeg) no-repeat center/cover;
     position: relative;
     justify-content: center;
     background-position: center center;
@@ -150,7 +150,7 @@ header a:hover {
     text-align: center;
     margin-top: 1px;
     border: 1px solid #ccc;
-    background: url(/assets/css/images/footer2.webp) no-repeat center/cover;
+    background: url(../css/images/footer2.webp) no-repeat center/cover;
     font-weight: 300px;
     color:rgb(247, 247, 244) ;
     font-family:Arial, Helvetica, sans-serif;
@@ -230,7 +230,7 @@ header a:hover {
 
 
 .benefits-alkalizing {
-    background: url(/assets/css/images/threes.jpg)no-repeat center/cover;
+    background: url(../css/images/threes.jpg)no-repeat center/cover;
       font-size: 12px;
       color:#f5f5f5;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -241,14 +241,14 @@ header a:hover {
 } 
 
 .benefits-anti {
-    background: url(/assets/css/images/breathin-women.webp) no-repeat center/cover;
+    background: url(../css/images/breathin-women.webp) no-repeat center/cover;
     font-size: 10px;
     color: rgb(255, 255, 255);
     
 }
 
 .benefits-elevating {
-    background: url(/assets/css/images/helechos-header.jpeg ) no-repeat center/cover;
+    background: url(../css/images/helechos-header.jpeg ) no-repeat center/cover;
     color:antiquewhite;
     font-size: 13px;
     
@@ -259,7 +259,7 @@ header a:hover {
 /*footer */
 
 footer {
-    background: url(/assets/css/images/footer.webp) no-repeat center/cover;
+    background: url(../css/images/footer.webp) no-repeat center/cover;
     
 }
 
@@ -289,7 +289,7 @@ color: #3a3a3a;
     background-color: rgb(100, 128, 113);
     color: white;
     text-align: center;
-    background: url(/assets/css/images/footer2.webp) no-repeat center/cover;
+    background: url(../css/images/footer2.webp) no-repeat center/cover;
     background-position: center center;
     background-size: cover;
     margin: 2px;
@@ -348,13 +348,14 @@ color: #3a3a3a;
 /*form*/
 
 #signup {
-    background: url("/assets/css/images/breathing-meditation.jpeg") no-repeat center/cover;
-    background-size:auto;
-    background-position: 75%;
+    background: url(../css/images/breathing-meditation.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+
 }
 
 #signup-form {
@@ -428,6 +429,8 @@ color: #3a3a3a;
 
 @media screen and (min-width: 768px){
 
+    /*header*/
+
 header {
     position: relative;
     width: 100vw;
@@ -456,7 +459,7 @@ header nav {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     flex-wrap: wrap;
 }
 
@@ -534,7 +537,7 @@ container .logo {
 }
 
 .benefits-alkalizing {
-    background: url(/assets/css/images/threes.jpg)no-repeat center/cover;
+    background: url(../css/images/threes.jpg)no-repeat center/cover;
       font-size: 20px;
       color :#fafafa;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -543,14 +546,14 @@ container .logo {
 } 
 
 .benefits-anti {
-    background: url(/assets/css/images/breathin-women.webp) no-repeat center/cover;
+    background: url(../css/images/breathin-women.webp) no-repeat center/cover;
     font-size: 20px;
     color: rgb(255, 255, 255);
     
 }
 
 .benefits-elevating {
-    background: url(/assets/css/images/helechos-header.jpeg ) no-repeat center/cover;
+    background: url(../css/images/helechos-header.jpeg ) no-repeat center/cover;
     color:antiquewhite;
     font-size: 20px;
 
@@ -572,13 +575,9 @@ container .logo {
 }
 
 /*form*/
-#signup {
-    background:url(/assets/css/images/breathing-meditation.jpeg) no-repeat center/cover;
-    position: cover;
-    width: 100vw;
-    height: 100vh;
-    
-}
+
+
+
 
 #signup-form {
     max-width: 400px;
@@ -597,13 +596,11 @@ container .logo {
 }
 
 
-/*open-times*/
 
 
 
 
 
-}
 
 
 
@@ -616,10 +613,6 @@ container .logo {
 
  
 
-#signup {
-    display: flex;
-    margin: 0;
-}
 
 
 }
@@ -627,4 +620,4 @@ container .logo {
 @media screen and (min-width: 1200px) {
 
 }
-
+}
