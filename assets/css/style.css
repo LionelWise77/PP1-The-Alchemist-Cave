@@ -13,6 +13,8 @@ body {
         margin:0
         
     }
+
+    /*header*/
     
 
 .container {
@@ -112,6 +114,7 @@ header a:hover {
     
 }
 
+/*hero*/
 #hero h1 {
     color:#e9e9e3;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -121,7 +124,7 @@ header a:hover {
     font-size: 1.5rem;
     padding-inline-end: 50%;
 
-    
+    /*main*/
 }
 
 #what-is-breathwork {
@@ -150,12 +153,12 @@ header a:hover {
 
 #what-is-breathwork p {
     font-family:'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     width: 80%;
     max-width:fit-content;
     margin: auto;
-    line-height: 50px;
+    line-height: 25px;
     text-align: center;
     padding-top: 5px;
     color: black ;
@@ -174,17 +177,22 @@ header a:hover {
 }
 
 #benefits h3 {
-    font-size: 3em;
+    font-size: 2em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 50px 0px;
+    padding: 30px 0px;
+    justify-content: center;
+    text-align: center center;
+    
 
 }
 
 #benefits p.font-change {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-size: 20px;
     font-style: italic;
     justify-content:center;
+    padding-right: 20px;
+    margin-right: 20px;
     
    
 }
@@ -212,29 +220,23 @@ header a:hover {
          
 }
 
-.benefits-alkalizing h4,
-.benefits-anti h4,
-.benefits-elevating h4 {
-    font-size: 1rem;
-    margin-top:auto; 
-    margin: auto;
-    font-style:italic;
-    color:rgb(228, 225, 221);
-}
+
+
 
 .benefits-alkalizing {
     background: url(/assets/css/images/threes.jpg)no-repeat center/cover;
-      font-size: 1rem;
+      font-size: 12px;
       color:#f5f5f5;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       background-position: 60%;
-      max-width: 100%;
+      max-width: 100vw;
       background-image: -o-linear-gradient(rgba(20, 20, 20, 0.5));
+     
 } 
 
 .benefits-anti {
     background: url(/assets/css/images/breathin-women.webp) no-repeat center/cover;
-    font-size: 1rem;
+    font-size: 10px;
     color: rgb(255, 255, 255);
     
 }
@@ -242,15 +244,17 @@ header a:hover {
 .benefits-elevating {
     background: url(/assets/css/images/helechos-header.jpeg ) no-repeat center/cover;
     color:antiquewhite;
-    font-size: 1rem;
+    font-size: 13px;
     
     
     }
 
+  
 /*footer */
 
 footer {
-    background: url(/assets/css/images/footer.webp) no-repeat center/cover; 
+    background: url(/assets/css/images/footer.webp) no-repeat center/cover;
+    
 }
 
 .social-links {
@@ -258,12 +262,10 @@ footer {
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
+    list-style-type: style type;;
     font-size: 14px;
     position: relative;
    
-    
-     
 }
 
 .social-links i {
@@ -274,13 +276,130 @@ color: #3a3a3a;
 
 }
 
+/*main-about-breathwork*/
+
+#breathwork-techniques {
+    background-color: rgb(100, 128, 113);
+    color: white;
+    text-align: center;
+    background: url(/assets/css/images/footer2.webp) no-repeat center/cover;
+    background-position: center center;
+    background-size: cover;
+    margin: 2px;
+    border-top: #ccc;
+}
+
+#breathwork-techniques h2 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0%;
+    padding-bottom: 0;
+    text-align: center;
+    color: #e9e9e3;
+}
+
+#breathwork-techniques .container {
+    text-align: center;
+    padding: 100px 12px;
+}
+
+
+#breathwork-techniques p {
+    display:flexbox;
+    flex-wrap: wrap;
+}
+
+.techniques h3{
+    border-radius: 30px; 
+    
+    padding: 10px; 
+    color: rgb(250, 250, 247);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    flex-direction: column;
+    
+
+}
+.techniques p {
+    border-radius: 30px; 
+    
+    padding: 10px; 
+    color: rgb(250, 250, 247);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    flex-direction: column;
+    background-color: #348d64;
+    
+}
+
+
+#breathwork-techniques .techquines {
+    margin: 20px;
+    border-radius: 15px;
+}
+
+/*form*/
+
+#signup {
+    background: url("/assets/css/images/breathing-meditation.jpeg") no-repeat center/cover;
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color:#ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-input {
+    background: transparent;
+    color: #1a1616;
+    border: 1px solid #140303;
+    border-radius: 2px;
+    width: 25px;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    padding: 0 5 px;
+}
+
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+
+/*open-times*/
+
+#open-time .coontainer {
+    background-color: antiquewhite;
+}
+
+
+
+
 
 
 @media screen and (min-width: 768px){
 
 header {
     position: relative;
-    width: 100%;
+    width: 100vw;
+    
 }
 
 header .container {
@@ -298,6 +417,7 @@ header nav {
 
 #hero h1 {
     font-size: 3rem;
+    width: 100vw;
 }
 
 
@@ -406,5 +526,58 @@ container .logo {
     
     }
 
+#pros-cons {
+    background-color: bisque;
+
 }
 
+#pros-cons .container {
+    border-radius: 15px;
+    text-align: center;
+    border-color: #348d64;
+
+
+}
+
+/*form*/
+#signup {
+    background-position: center;
+    position: relative;
+}
+
+#signup-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
+
+
+/*open-times*/
+
+#open-time .coontainer {
+    background-color: antiquewhite;
+}
+
+
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1200px) {
+
+}
