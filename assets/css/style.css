@@ -185,7 +185,7 @@ header a:hover {
 #benefits h3 {
     font-size: 1em;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 50px 50px;
+    padding: 0px 200px;
     justify-content: center;
     text-align: center center;
     
@@ -510,7 +510,7 @@ container .logo {
 #benefits h3 {
     font-size: 2rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 50px 50px;
+    padding: 0px 200px;
     position: static;
     text-align: center;
     
