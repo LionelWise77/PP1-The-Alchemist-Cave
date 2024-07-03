@@ -112,7 +112,7 @@ header a:hover {
 #hero {
     height: 300px;
     width: 100%;
-    background: url(../css/images/hero\ option1.jpeg) no-repeat center/cover;
+    background: url(../css/images/hero-option1-6685665c4d6ba.webp) no-repeat center/cover;
     position: relative;
     justify-content: center;
     background-position: center center;
@@ -207,9 +207,9 @@ header a:hover {
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    border: 1px solid #ccc;
+    border: 1px solid #b8be88;
     border-radius: 30px;
-    flex-wrap:after;
+    flex-wrap:wrap;
 
 }
 
@@ -504,7 +504,7 @@ container .logo {
 #benefits .container {
     display: flex;
     justify-content: center;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
 }
 
 #benefits h3 {
