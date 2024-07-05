@@ -273,7 +273,6 @@ footer {
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: style type;
     font-size: 14px;
     position: relative;
     
@@ -382,7 +381,7 @@ color: #3a3a3a;
     width: 60%;
     height: 25px;
     margin: 5px 0 20px 0;
-    padding: 0px 5 px;
+    padding: 0px 5px;
     font-size: xx-large;
 }
 
