@@ -2,7 +2,7 @@
 
 Welcome !
 
-![To the Alchemyst cave](/assets/css/images/responsive.png)
+![To the Alchemyst cave](/assets/css/images/all-devices-black%20(3).png)
 
 The alchemyst Cave is a site were you can learn differents techniques of Breathwork and wellness, in this website you can you can learn more about benefits different healing practices, can join and start your journey with us
 
@@ -17,35 +17,35 @@ The alchemyst Cave is a site were you can learn differents techniques of Breathw
 
 ### The Header
 
-![Header](/assets/css/images/header%20screen.png)
+![Header](/assets/css/images/header-resubmit.png)
 
   * the header shows the name of the wellness center, using the other color chosen: white.
 
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/LionelWise77/PP1-The-Alchemist-Cave/blob/main/assets/css/images/header%20screen.png)
+![Nav Bar](https://github.com/LionelWise77/PP1-The-Alchemist-Cave/blob/main/assets/css/images/header-resubmit.png)
 
-- ![Hero](/assets/css/images/hero%20screen.png)
+- ![Hero](/assets/css/images/hero-resubmit.png)
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces and invite the visitor go inside as a methapor to use the tools inside you to improve your lifestyle.
 
-![Landing Page](https://github.com/LionelWise77/PP1-The-Alchemist-Cave/blob/main/assets/css/images/hero%20screen.png)
+![Landing Page](https://github.com/LionelWise77/PP1-The-Alchemist-Cave/blob/main/assets/css/images/hero-resubmit.png)
 
-![Benefits](/assets/css/images/content2%20screen.png)
+![Benefits](/assets/css/images/benefits-resubmit.png)
 
 
   - This section will tell you some of the many benefits that breathwork have. 
    
 
-![Meetup Times](https://github.com/LionelWise77/PP1-The-Alchemist-Cave/blob/main/assets/css/images/content2%20screen.png)
+![Meetup Times](https://github.com/LionelWise77/PP1-The-Alchemist-Cave/blob/main/assets/css/images/benefits-resubmit.png)
 
-![Footer](/assets/css/images/footer%20screen.png)
+![Footer](/assets/css/images/footer.resubmit.png)
 
   - The footer section includes links to the relevant social media sites for breathwork. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/LionelWise77/PP1-The-Alchemist-Cave/blob/main/assets/css/images/footer.resubmit.png)
 
 ![techquines](/assets/css/images/content%20techniques%20screen.png)
 
@@ -65,7 +65,7 @@ The alchemyst Cave is a site were you can learn differents techniques of Breathw
 
 ## Testing 
 
-![home](/assets/css/images/lighthouse%20home.png)
+![home](/assets/css/images/lighthouse%20resubmited.png)
 
 * well this webside was my first and take more time, i guest is not a bad puntuation but i can make better next time.
 
@@ -81,7 +81,7 @@ The alchemyst Cave is a site were you can learn differents techniques of Breathw
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Flionelwise77.github.io%2FPP1-The-Alchemist-Cave%2F)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
